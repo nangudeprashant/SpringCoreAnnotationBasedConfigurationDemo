@@ -8,7 +8,7 @@ public class Hostel {
 	}
 
 	public void init() {
-		System.out.println("init method  called !!!");
+		System.out.println("custom init method of Hostel bean is called !!!");
 	}
 
 	@Override

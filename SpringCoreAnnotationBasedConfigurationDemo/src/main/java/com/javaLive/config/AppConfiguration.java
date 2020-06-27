@@ -1,10 +1,12 @@
 package com.javaLive.config;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 import com.javaLive.beans.Hostel;
 import com.javaLive.beans.Student;
 
+@Configuration
 public class AppConfiguration {
 	public AppConfiguration()
     {        
